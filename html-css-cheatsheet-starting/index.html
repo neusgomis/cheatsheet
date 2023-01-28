@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="styles.css/styles.css" rel="stylesheet">
+
+    <title>HTML Tables</title>
+</head>
+
+<body>
+    <div class="banner">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li><a href="images/contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </div>
+    <div class="title">
+        <h1>How to create tables in HTML</h1>
+        <img src="/Users/usuario/Documents/Codecademy/Projects/html-css-cheatsheet-starting/images/uide-to-writting-a-good-readme-file--7-.png" width="400" height="250"/>
+    </div>
+    <div class = "introduction">
+        <h3>Introduction</h3>
+        <p>A table is a set of data organized by rows and columns. Tables are useful for displaying connections between data types, such as products and their cost, employment and dates employed, or flights and departure times. In this tutorial, you will create a table using HTML, customize it by adding a desired amount of rows and columns, and add row and column headings to make your table easier to read.</p>
+    </div>
+    <div class="prerequisites">
+        <h3>Prerequisites</h3>
+        <ul>
+            <li>Familiarity with basics of HTML</li>
+            <li>An <i>index.html</i> file to practice creating HTML tables</li>
+        </ul>
+    </div>
+    <div class="content">
+        <h3>Tables, rows and columns</h3>
+        <p>HTML tables are created with different types of <strong>opening</strong> and <strong>closing tags:</strong></p>
+        <ul>
+            <li><strong>&lttable&gt &lt/table&gt:</strong> used to create a table and hold the contents in it. They mark the start and end of the table in the HTML file</li>
+            <li><strong>&lttr&gt &lt/tr&gt:</strong> table row tags are used to create a row of data in the table</li>
+            <li><strong>&lttd&gt &lttd&gt:</strong> table data tags are used to add and organise data into columns</li>
+        </ul>
+        <p>Here is a table that has two rows and three columns:</p>
+        <img src="/Users/usuario/Documents/Codecademy/Projects/html-css-cheatsheet-starting/images/Screenshot 2023-01-22 at 17.06.30.png" height="250" width="500"/>
+        <p>To explore how HTML tables work in practice, copy the code in the image above into the index.html file or any other file you are using for this tutorial </p>
+        <p>Your webpage should now have a table as below:</p>
+        <table>
+            <tr> 
+              <td>Column 1</td>
+              <td>Column 2</td>
+              <td>Column 3</td>
+            </tr>
+            <tr> 
+              <td>Column 1</td>
+              <td>Column 2</td>
+              <td>Column 3</td>
+            </tr>
+        </table>
+        <h3>Headings</h3>
+        <p>Headings can be added to rows and columns to make tables easier to read. Table headings are automatically styled by HTML with bold and centered styles to visually distinguish them from table data</p>
+        <p>Headings are added by using opening and closing tags: <strong>&ltth&gt</strong> </p>
+        <p>Heading tags must be added inserting one new &lttr&gt element at the top of the table where you can add the column names using &ltth&gt tags. See example below:</p>
+        <img src="/Users/usuario/Documents/Codecademy/Projects/html-css-cheatsheet-starting/images/Headings.png" height="400" width="600"/>
+        <p>If you copy the code above and paste it in your HTML document you should see an output like this:</p>
+        <table>
+        <tr> 
+            <th></th>
+            <th>Column Header 1</th>
+            <th>Column Header 2</th>
+            <th>Column Header 3</th>
+          </tr>
+          <tr>
+            <th>Row Header 1</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+          </tr>
+          <tr> 
+            <th>Row Header 2</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+         </tr>
+         <tr> 
+            <th>Row Header 3</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+         </tr>
+        </table>
+    
+    <div class="csstable">
+        <h1>Example of Table Styled using CSS</h1>
+
+    </div>
+
+    <div class="footer">
+        <p>Source: <a href="https://www.digitalocean.com/community/tutorials/how-to-create-tables-in-html" target="_blank"> Digital Ocean</a> (opens in a new window)</p>
+    </div>
+    </div>
+</body>
+</html>
